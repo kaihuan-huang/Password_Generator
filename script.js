@@ -25,6 +25,7 @@ const hasNumbers = console.log(confirm("Add Numbers?"))
 const hasLowercase = console.log(confirm("Add LowerCase Letter?"))
 const hasUppercase = console.log(confirm("Add UpperCase Letter?"))
 
+let password = "";
 
 const generatePassword = (length, hasNumbers, hasSymbols, hasLowercase, hasUppercase) => {
     const avaliableCharacters = [
@@ -37,13 +38,13 @@ const generatePassword = (length, hasNumbers, hasSymbols, hasLowercase, hasUpper
     // console.log(avaliableCharacters);
     // let password = "";
     // if(avaliableCharacters.length === 0) return "";
-    let password="";
+    
     for(let i = 0; i< length; i++){
         const password = Math.floor(Math.random()*avaliableCharacters.length);
         password += avaliableCharacters[password];
 
     }
     return password;
-
 }
+
 
