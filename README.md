@@ -4,15 +4,25 @@
 
 Create an application that an employee can use to generate a random password based on their selected criteria.
 
-deployed link: https://github.com/kaihuan-huang/Password_Generator
+This Random Password Generator App will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
-Gitpage link: https://kaihuan-huang.github.io/Password_Generator/
+- Deployed link: https://github.com/kaihuan-huang/Password_Generator
 
--presented with a series of prompts for password criteria.
+- Gitpage link: https://kaihuan-huang.github.io/Password_Generator/
 
--prompted for the length of the password(length of at least 8 characters and no more than 128 characters)
+## More details
 
--confirm whether or not to include lowercase, uppercase, numeric, and/or special characters on each prompt
+- Presented with a series of prompts for password criteria;
+
+- Prompted for the length of the password(length of at least 8 characters and no more than 128 characters);
+
+- Confirmed whether or not to include lowercase, uppercase, numeric, and/or special characters on each prompt;
+
+- Limited the length of password (between 8 - 128 characters);
+
+- Answered each prompt that input should be validated and at least one character type should be selected;
+
+- The password will display in written to the page when password is generated.
 
 ## Assets
 
