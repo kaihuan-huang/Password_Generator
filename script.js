@@ -14,11 +14,11 @@ var hasUppercase;
 
 //Prompt to confirm how many characters the user want to be in their password
 function generatePassword(){
-    var length = console.log(prompt("Input length of the password( at least 8 characters and no more than 128 characters): "));
+    var length = (prompt("Input length of the password( at least 8 characters and no more than 128 characters): "));
 
     //make sure user's input is in 8-128 characters
     while( length <= 7 || length >= 128 ){
-        alert("Password length must be between 7 - 128characters. Please Try again");
+        alert("Password length must be between 8 - 128characters. Please Try again");
         var length = (prompt("Input length of the password( at least 8 characters and no more than 128 characters): "));
     
     }   
