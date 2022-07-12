@@ -25,7 +25,7 @@ const hasNumbers = console.log(confirm("Add Numbers?"))
 const hasLowercase = console.log(confirm("Add LowerCase Letter?"))
 const hasUppercase = console.log(confirm("Add UpperCase Letter?"))
 
-let password = "";
+
 
 const generatePassword = (length, hasNumbers, hasSymbols, hasLowercase, hasUppercase) => {
     const avaliableCharacters = [
@@ -35,7 +35,7 @@ const generatePassword = (length, hasNumbers, hasSymbols, hasLowercase, hasUpper
         ...(hasUppercase? letterUpperCase: []),
 
     ];
-    // console.log(avaliableCharacters);
+    console.log(avaliableCharacters);
     // let password = "";
     // if(avaliableCharacters.length === 0) return "";
     
