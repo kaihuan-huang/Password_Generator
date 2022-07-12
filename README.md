@@ -12,6 +12,8 @@ deployed link: https://github.com/kaihuan-huang/Password_Generator
 
 -confirm whether or not to include lowercase, uppercase, numeric, and/or special characters on each prompt
 
+
+
 ## Resources:
 
 https://youtu.be/O-79Cb5s9U4
